@@ -1,8 +1,8 @@
 const avanca = document.querySelectorAll('.btn-proximo');
-const reiniciarBtn = ducument.geteElementbytd('btn-reiniciar
+const reiniciarBtn = ducument.geteElementbytd('btn-reiniciar');
 
 avanca.forEach(Button=>{}
-Button.addEventListener('click,'function() {
+button.addEventListener('click',function() {
  const atual = ducument.querySelector(',ativo');
  const proximoPasso= 'passo-'+this.getAttribute('data-proximo');
 
@@ -12,7 +12,7 @@ const proximoElemento= ducument.geteElementbytd(proximoPasso);
 if(proximoElemento){
    proximoElemento.classlist.add('ativo');
 }else {
-   console.error('Elemento com id "${proximoPasso}"não encontrado.')
+   console.error('Elemento com id "${proximoPasso}"não encontrado.`);
   }
   {);
 

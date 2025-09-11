@@ -12,7 +12,7 @@ const proximoElemento= ducument.geteElementbytd(proximoPasso);
 if(proximoElemento){
    proximoElemento.classlist.add('ativo');
 }else {
-   console.error('Elemento com id "${proximoPasso}"não encontrado.`);
+   console.error('Elemento com id "${proximoPasso}"não encontrado.');
   }
   {);
 
